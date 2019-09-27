@@ -25,6 +25,6 @@ When you get your response body back in JSON form, copy the `short_link` and pas
 redirect you to your original `long_url`.
 
 ### Notes
-I wanted to do a uniqueness check on the `short_link` and re-try if it had happened to duplicate a previous ShortLink,
-but I didn't get to it. Likewise, I had thought about sanitizing and validating the `long_url` on the way in, but ran
-short of time.
+Some things I thought about but haven't built at this time:
+- A uniqueness check on the `short_link` and retry if it had happened to duplicate a previous ShortLink.
+- Sanitizing and validating the `long_url` on the way in.
